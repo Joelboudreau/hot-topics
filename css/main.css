@@ -1,0 +1,404 @@
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+body{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    line-height: 1.4rem;
+    font-size: .618rem;
+    background: linear-gradient(to right, #5f6b71 , #d7e7f1 , #d7e7f1, #d7e7f1 , #5f6b71);
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Droid Serif", serif;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+}
+
+figcaption{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.wrap{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+
+nav ul{
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #34425f;
+    text-align: center;
+    margin: auto;
+    float: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+nav ul li {
+    margin: auto;
+    margin: 10px;
+    background-color: #d7e7f1;
+    list-style-type: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    }
+
+
+li a:hover {
+    background-color: #cbf3f8;
+    }
+
+li a {
+    border-radius: 5px;
+    color: #1c2f40;
+    padding: 10px 16px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    margin: auto;
+    
+    }
+
+.full-width{
+    background-image: url(../img/image01.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.box {
+    background-color:#dbdbdb;
+    border-radius: 5px;
+}
+
+.box h1{
+    border-radius: 5px;
+    background-color: #2b3956;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #d7e7f1;
+}
+
+.titre h1 {
+        color: floralwhite;
+
+}
+
+legend{
+    text-align: center;
+    font-size: 18px; 
+}
+
+
+#full-name{
+    padding: 5px 0 7px 0;
+}
+#email{
+    padding: 5px 0 7px 0;
+    width: 100%;
+}
+#subject{
+    padding: 5px 0 7px 0;
+}
+#message{
+    padding: 5px 0 22px 0;
+}
+#send{
+/*    padding: 10px 0 7px 0;*/
+    height: 32px;
+    border: 0px;
+}
+
+input[type="submit"]{
+    background-color: white;
+}
+
+
+input{
+    
+    text-decoration: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+input:hover {background-color: #a7cee7}
+
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 40px;
+   padding: 5px; 
+   width: 88%;
+   color: #fff;
+}
+
+img{
+    width: 100%;
+/*    max-width: 100px;*/
+    height: auto
+}
+
+    
+/*head image-----*/
+    
+.logo img {
+    display: block;
+    width: 81%;
+    margin: auto;
+    }
+    
+
+footer{
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/* TABLET IEW --------------------------*/
+
+@media only all and (min-width: 35rem) and (max-width: 80rem) {
+
+body{
+            font-size: 1rem;
+        }
+    
+.logo img {
+
+        width: 50%;
+        margin: auto;
+        max-width: 382px;
+    }
+    figcaption{
+        text-align: left;
+    }
+
+li {
+        display:inline-block;
+        width: 100%;
+        }
+    
+.wrapper{
+        width: 100%;
+        margin: auto;
+    }
+
+li a:hover {
+        background-color:aliceblue;
+    }
+
+nav ul li{
+        width: 40%;
+        text-align: center;
+    }
+    
+ul{
+        width: 100%;
+    }
+    
+    img{
+        width: 40%;
+        float: left;
+        margin: 0 20px 10px -20px;
+    }
+    
+    
+#full-name{
+    padding: 5px 0 7px 0;
+    width: 30%;
+    float: left;
+    margin: 10px;
+
+}
+#email{
+    padding: 5px 0 7px 0;
+    width: 30%;
+    float: left;
+    margin: 10px;
+
+}
+#subject{
+    padding: 5px 0 7px 0;
+        width: 30%;
+    float: left;
+    margin: 10px;
+
+
+}
+#message{
+    padding: 10px 0px 100px 10px;
+    width: 60%;
+    margin: 10px;
+    text-align: left;
+
+
+}
+#send{
+    padding: 10px 0 7px 0;
+        width: 30%;
+        margin: 10px;
+}
+
+        
+    
+footer{
+    font-size: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    clear: left;
+
+    }
+    
+
+}
+
+/* TABLET IEW --------------------------*/
+
+
+@media only all and (min-width: 80rem){
+    
+p{
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+    
+.logo img {
+    width: 25%;
+    margin: auto;
+    float: left;
+    }
+    
+    img{
+        width: 40%;
+        float: left;
+        margin: 0 20px 0 0;
+    }
+    .box{
+    }
+    
+figcaption{
+        text-align: left;
+    }
+    
+nav ul{
+    width: 40%;
+    margin-top: 139px;
+    float: left;
+/*    margin-bottom: 100px;*/
+    }
+    
+    
+.box h1{
+        margin-top: 0px;
+    }
+
+li {
+        display:inline-block;
+        width: 100%;
+        }
+    
+.wrapper{
+        width: 80%;
+        margin: auto;
+    }
+    
+.container{
+        width: 80%;
+    margin: auto;
+    }
+
+li a:hover {
+        background-color:aliceblue;
+    }
+
+nav ul li{
+        width: 40%;
+        text-align: center;
+    }
+.gmo{
+        width: 50%;
+        float: left;
+    }
+    
+.view{
+        width: 50%;
+        float: left;
+    }
+    
+#full-name{
+    padding: 5px 0 7px 0;
+    width: 30%;
+    float: left;
+    margin: 10px;
+
+}
+#email{
+    padding: 5px 0 7px 0;
+    width: 30%;
+    float: left;
+    margin: 10px;
+
+}
+#subject{
+    padding: 5px 0 7px 0;
+        width: 30%;
+    float: left;
+    margin: 10px;
+
+
+}
+#message{
+    padding: 0px 0 110px 0;
+        width: 60%;
+        margin: 10px;
+
+
+}
+#send{
+    padding: 10px 0 7px 0;
+        width: 30%;
+        margin: 10px;
+}
+
+    
+footer{
+    text-align: left;
+    }
+
+}
